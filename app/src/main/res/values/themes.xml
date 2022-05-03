@@ -3,7 +3,7 @@
     <style name="Theme.Calculadora" parent="Theme.AppCompat">
 
         <item name="colorPrimary">@color/orange</item>
-        <item name="colorPrimaryVariant">@color/almosblack</item>
+        <item name="colorPrimaryVariant">@color/almostblack</item>
         <item name="colorOnPrimary">@color/white</item>
 
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
