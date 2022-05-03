@@ -74,7 +74,17 @@ class MainActivity : AppCompatActivity() {
         if(timesDivision.isEmpty()) return ""
 
         val result=addSubstractCalculate(timesDivision)
-        return result.toString()
+
+
+        val d=result.toDouble()
+        if((d % 1) == 0.0){
+            println("Is integer")
+            return result.toInt().toString()
+        }else{
+            println("Is not integer")
+            return result.toFloat().toString()
+        }
+       // return result.toString()
     }
 
     private fun addSubstractCalculate(passedlist: MutableList<Any>): Float
